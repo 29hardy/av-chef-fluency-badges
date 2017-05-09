@@ -7,3 +7,4 @@ node_name                "amar"
 client_key               "#{current_dir}/amar.pem"
 chef_server_url          "https://amar-vinayak-gmail-com3.mylabserver.com/organizations/amarlinuxacademy"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:editor]="vi"
